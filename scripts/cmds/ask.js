@@ -69,8 +69,8 @@ module.exports = {
         }
         const userName = ret[event.senderID].name;
         const { response, messageID } = await getAIResponse(input, userName, event.senderID, message.messageID);
-        message.reply(`✰. . 𝗧𝗥𝗔𝗡𝗦𝗙𝗢𝗥𝗠𝗘𝗥𝗦 . .✰ \n⧠⧠⧠⧠⧠ .✰.✰. ⧠⧠⧠⧠⧠\n\n${response}\n\n⧠⧠⧠⧠⧠ .✰.✰. ⧠⧠⧠⧠⧠\n𝘀𝗲𝗻𝗱𝗲𝗿 𝗻𝗮𝗺𝗲: ${userName} 💬\n━━━━━━━━━━━━━━━━━━`, messageID);
-api.setMessageReaction("💬", event.messageID, () => {}, true);
+        message.reply(`[🌐] 𝗗𝗘𝗧𝗘𝗖𝗧𝗜𝗩𝗘 𝗗𝗘𝗘.....∆∇ \n⧠⧠⧠⧠⧠ .✰.✰. ⧠⧠⧠⧠⧠\n\n${response}\n\n⧠⧠⧠⧠⧠ .✰.✰. ⧠⧠⧠⧠⧠\n𝗦𝗲𝗻𝗱𝗲𝗿 𝗡𝗮𝗺𝗲:▶${userName} 📕\n━━━━━━━━━━━━━━━━━━`, messageID);
+api.setMessageReaction("🌐", event.messageID, () => {}, true);
 
       });
     }
