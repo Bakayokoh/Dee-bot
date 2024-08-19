@@ -65,9 +65,9 @@ module.exports = {
       msg += `𝗜 𝘀𝘁𝗮𝗿𝘁 𝘄𝗶𝘁𝗵 𝘁𝗵𝗲 𝗶𝗱𝗲𝗮 𝘁𝗵𝗲𝗻 𝗜 𝗹𝗼𝗼𝗸 𝗳𝗼𝗿 𝗵𝗼𝘄 𝘁𝗼 𝗺𝗮𝗸𝗲 𝗶𝘁 🟢V4`; // its not decoy so change it if you want 
 
       const helpListImages = [
-        "https://i.ibb.co/DtnQdTX/image.jpg", // add image link here
-                "https://i.ibb.co/rwjP8Hn/image.jpg",
-        "https://i.ibb.co/Tw4N8DR/image.jpg",
+        "https://tinyurl.com/24dedq9l", // add image link here
+                "https://tinyurl.com/26sde7p7",
+        "https://tinyurl.com/24dedq9l",
         // Add more image links as needed
       ];
 
@@ -127,4 +127,4 @@ function roleTextToString(roleText) {
     default:
       return "Unknown role";
   }
-}
+        }
